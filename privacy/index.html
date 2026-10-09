@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="LocalKey privacy policy. Everything runs on your device; LocalKey collects no data.">
+  <meta name="description" content="LocalKey privacy policy. Your clipboard history, snippets and writing stay on your devices and in your own iCloud. LocalKey collects no data.">
   <title>Privacy Policy · LocalKey</title>
   <link rel="stylesheet" href="../styles.css">
 </head>
@@ -12,50 +12,67 @@
     <nav><a href="../">LocalKey</a><a href="../support/">Support</a><a href="#tr">Türkçe</a></nav>
     <h1>Privacy Policy</h1>
     <p class="meta">Effective 9 October 2026 · Applies to LocalKey for iPhone, iPad and Mac, including the LocalKey keyboard, share extension and widgets.</p>
-    <p class="lead">LocalKey does not collect, store, transmit or sell any personal data. Everything you type and every AI result stays on your device.</p>
+    <p class="lead">LocalKey does not collect, sell or share any personal data. The developer has no servers, no accounts and no analytics. Your clipboard history, snippets and writing stay on your devices and, only if you turn on sync, in your own iCloud.</p>
 
-    <h2>On-device processing</h2>
-    <p>All writing features (fixing grammar, rewriting, changing tone, summarising, translating and adding emoji) run on Apple Intelligence's on-device language model through Apple's Foundation Models framework. Your text is processed in memory on your device and is never sent to the developer, to Apple servers by LocalKey, or to any third party.</p>
+    <h2>What stays on your device</h2>
+    <p>Clipboard history, pinboards, snippets, your custom AI actions, settings and simple usage counters are stored in LocalKey's private storage on your device, shared only between the LocalKey app and its extensions. Deleting LocalKey removes them.</p>
 
-    <h2>No network access, accounts, analytics or ads</h2>
-    <p>LocalKey contains no networking code, no analytics or crash-reporting SDKs, no advertising and no tracking. It does not ask you to create an account. On Mac, the app and its extensions run in Apple's App Sandbox without permission to make network connections.</p>
+    <h2>Sensitive copies</h2>
+    <p>LocalKey checks each copy on your device and does not save one-time codes, card numbers, IBANs, passwords, secret keys, or anything an app marks as private (for example password managers on Mac). Clips you move to the vault are encrypted with AES-GCM using a key kept in your iCloud Keychain, and are shown only after Face ID, Touch ID or your passcode.</p>
+
+    <h2>AI writing tools</h2>
+    <p>Rewriting, grammar, tone, translation and suggested replies run on Apple Intelligence's on-device model through Apple's Foundation Models framework. Text is processed in memory and not stored by LocalKey.</p>
+    <p><strong>Optional Private Cloud Compute.</strong> If you turn it on in Settings (off by default, iOS and macOS 27 or later), texts longer than 1,500 characters are processed by Apple Private Cloud Compute. Apple designed it so that your data is not stored and is not accessible to anyone, including Apple; the developer never receives it. Each such request is listed in Settings › Network Activity. The keyboard never uses Private Cloud Compute or any network connection.</p>
+
+    <h2>Dictation</h2>
+    <p>Dictation uses the microphone only while you record, and speech is transcribed on your device with Apple's speech framework. Audio is not stored or sent anywhere.</p>
+
+    <h2>Optional iCloud sync</h2>
+    <p>If you turn on iCloud Sync (LocalKey Pro), your clips, pinboards, snippets and custom actions are stored in your own private iCloud database so your devices stay in step. Their text is stored in CloudKit's end-to-end encrypted fields. The developer cannot access your iCloud data. Sensitive copies are never saved, so they are never synced.</p>
+
+    <h2>Purchases</h2>
+    <p>LocalKey Pro is sold through Apple's App Store. Apple processes payments; the developer receives no payment details and uses no third-party purchase or analytics service.</p>
 
     <h2>The keyboard and Full Access</h2>
-    <p>iOS shows the same "Full Access" warning for every third-party keyboard that shares data with its own app. LocalKey works without Full Access. If you allow it, the keyboard uses it only to read your LocalKey settings and snippets from the LocalKey app on the same device and to provide haptic feedback. Full Access is never used to transmit anything. iOS always switches to the system keyboard in password and other secure fields, so LocalKey never sees them.</p>
-
-    <h2>Data stored on your device</h2>
-    <p>Your settings, the snippets you save and simple usage counters (how many texts you improved today and in total, shown in the widget) are stored only in LocalKey's private storage on your device, shared between the LocalKey app and its extensions. The keyboard does not keep a history of what you type. Deleting LocalKey removes all of this data.</p>
-
-    <h2>Text Replacements and spell checking</h2>
-    <p>To expand your iOS Text Replacements and to suggest spellings, the keyboard uses Apple's on-device lexicon and spell checker. These stay on your device.</p>
+    <p>iOS shows the same "Full Access" warning for every third-party keyboard that shares data with its own app. LocalKey works without Full Access. If you allow it, the keyboard uses it only to show your clipboard history and snippets, to save what you copy to your history on this device, to read your LocalKey settings, for haptic feedback, and (only when you tap Reply or use a {clipboard} snippet) to read the copied text. The keyboard never uses the network. iOS always switches to the system keyboard in password and other secure fields, so LocalKey never sees them.</p>
 
     <h2>Children</h2>
-    <p>LocalKey is suitable for all ages and does not knowingly collect data from anyone, including children.</p>
+    <p>LocalKey does not knowingly collect data from anyone, including children.</p>
 
     <h2>Changes and contact</h2>
-    <p>If this policy changes, the new version and effective date will be published on this page. Questions: <a href="mailto:firatonurcanp@gmail.com?subject=LocalKey%20Privacy">firatonurcanp@gmail.com</a>.</p>
+    <p>If this policy changes, the new version and effective date will be published on this page. Questions or requests: <a href="mailto:firatonurcanp@gmail.com?subject=LocalKey%20Privacy">firatonurcanp@gmail.com</a>.</p>
 
     <hr id="tr">
 
     <h1 lang="tr">Gizlilik Politikası</h1>
     <p class="meta" lang="tr">Yürürlük tarihi 9 Ekim 2026 · iPhone, iPad ve Mac için LocalKey; LocalKey klavyesi, paylaşım uzantısı ve widget'lar dahil.</p>
     <div lang="tr">
-      <p class="lead">LocalKey hiçbir kişisel veriyi toplamaz, saklamaz, aktarmaz veya satmaz. Yazdığınız her şey ve tüm yapay zekâ sonuçları cihazınızda kalır.</p>
+      <p class="lead">LocalKey hiçbir kişisel veriyi toplamaz, satmaz veya paylaşmaz. Geliştiricinin sunucusu, hesap sistemi ve analitiği yoktur. Pano geçmişiniz, snippet'leriniz ve yazdıklarınız cihazlarınızda ve yalnızca senkronu açarsanız kendi iCloud'unuzda kalır.</p>
 
-      <h2>Cihaz üzerinde işleme</h2>
-      <p>Tüm yazım özellikleri (dilbilgisi düzeltme, yeniden yazma, ton değiştirme, özetleme, çeviri ve emoji ekleme) Apple'ın Foundation Models çerçevesi aracılığıyla Apple Intelligence'ın cihaz üzerindeki dil modeliyle çalışır. Metniniz cihazınızın belleğinde işlenir; geliştiriciye, LocalKey tarafından Apple sunucularına veya herhangi bir üçüncü tarafa gönderilmez.</p>
+      <h2>Cihazınızda kalanlar</h2>
+      <p>Pano geçmişi, pinboard'lar, snippet'ler, kendi yapay zekâ komutlarınız, ayarlar ve basit kullanım sayaçları cihazınızdaki LocalKey'e özel depolama alanında tutulur ve yalnızca LocalKey uygulaması ile uzantıları arasında paylaşılır. LocalKey'i silmek bunları siler.</p>
 
-      <h2>Ağ erişimi, hesap, analitik ve reklam yok</h2>
-      <p>LocalKey'de ağ kodu, analitik veya hata raporlama SDK'sı, reklam ya da takip yoktur. Hesap oluşturmanızı istemez. Mac'te uygulama ve uzantıları, ağ bağlantısı izni olmadan Apple'ın App Sandbox ortamında çalışır.</p>
+      <h2>Hassas kopyalar</h2>
+      <p>LocalKey her kopyayı cihazınızda kontrol eder; tek kullanımlık kodları, kart numaralarını, IBAN'ları, parolaları, gizli anahtarları ve uygulamaların gizli olarak işaretlediği içerikleri kaydetmez. Kasaya taşıdığınız kopyalar, iCloud Anahtar Zinciri'nizde tutulan bir anahtarla AES-GCM ile şifrelenir ve yalnızca Face ID, Touch ID veya parolanızla görünür.</p>
+
+      <h2>Yapay zekâ yazım araçları</h2>
+      <p>Yeniden yazma, dilbilgisi, ton, çeviri ve yanıt önerileri Apple'ın Foundation Models çerçevesiyle cihaz üzerindeki Apple Intelligence modelinde çalışır. Metin bellekte işlenir, LocalKey tarafından saklanmaz.</p>
+      <p><strong>İsteğe bağlı Private Cloud Compute.</strong> Ayarlar'dan açarsanız (varsayılan olarak kapalı, iOS ve macOS 27 veya sonrası), 1.500 karakterden uzun metinler Apple Private Cloud Compute ile işlenir. Apple bunu verileriniz saklanmayacak ve Apple dahil kimse erişemeyecek şekilde tasarlamıştır; geliştirici bu verileri asla almaz. Her istek Ayarlar › Ağ Aktivitesi'nde listelenir. Klavye hiçbir zaman Private Cloud Compute veya ağ bağlantısı kullanmaz.</p>
+
+      <h2>Dikte</h2>
+      <p>Dikte, mikrofonu yalnızca kayıt sırasında kullanır ve konuşma Apple'ın konuşma çerçevesiyle cihazınızda metne çevrilir. Ses saklanmaz ve hiçbir yere gönderilmez.</p>
+
+      <h2>İsteğe bağlı iCloud senkronu</h2>
+      <p>iCloud Senkronu'nu açarsanız (LocalKey Pro), kopyalarınız, pinboard'larınız, snippet'leriniz ve komutlarınız cihazlarınız eşit kalsın diye kendi özel iCloud veritabanınızda tutulur. Metinleri CloudKit'in uçtan uca şifreli alanlarında saklanır. Geliştirici iCloud verilerinize erişemez. Hassas kopyalar hiç kaydedilmediğinden senkronize de edilmez.</p>
+
+      <h2>Satın almalar</h2>
+      <p>LocalKey Pro, Apple'ın App Store'u üzerinden satılır. Ödemeleri Apple işler; geliştirici ödeme bilgisi almaz ve üçüncü taraf satın alma veya analitik hizmeti kullanmaz.</p>
 
       <h2>Klavye ve Tam Erişim</h2>
-      <p>iOS, kendi uygulamasıyla veri paylaşan her üçüncü taraf klavye için aynı "Tam Erişim" uyarısını gösterir. LocalKey Tam Erişim olmadan da çalışır. İzin verirseniz klavye bunu yalnızca aynı cihazdaki LocalKey uygulamasından ayarlarınızı ve snippet'lerinizi okumak ve dokunsal geri bildirim için kullanır. Tam Erişim hiçbir şey aktarmak için kullanılmaz. iOS, parola ve diğer güvenli alanlarda her zaman sistem klavyesine geçer; LocalKey bunları asla görmez.</p>
-
-      <h2>Cihazınızda saklanan veriler</h2>
-      <p>Ayarlarınız, kaydettiğiniz snippet'ler ve basit kullanım sayaçları (widget'ta gösterilen, bugün ve toplamda kaç metni iyileştirdiğiniz) yalnızca cihazınızdaki LocalKey'e özel depolama alanında tutulur. Klavye yazdıklarınızın geçmişini tutmaz. LocalKey'i silmek bu verilerin tamamını siler.</p>
+      <p>LocalKey Tam Erişim olmadan da çalışır. İzin verirseniz klavye bunu yalnızca pano geçmişinizi ve snippet'lerinizi göstermek, kopyaladıklarınızı bu cihazdaki geçmişe kaydetmek, LocalKey ayarlarınızı okumak, dokunsal geri bildirim ve (yalnızca Yanıtla'ya dokunduğunuzda veya {clipboard} içeren bir snippet kullandığınızda) kopyalanan metni okumak için kullanır. Klavye hiçbir zaman ağı kullanmaz.</p>
 
       <h2>İletişim</h2>
-      <p>Sorularınız için: <a href="mailto:firatonurcanp@gmail.com?subject=LocalKey%20Gizlilik">firatonurcanp@gmail.com</a>.</p>
+      <p>Sorularınız ve talepleriniz için: <a href="mailto:firatonurcanp@gmail.com?subject=LocalKey%20Gizlilik">firatonurcanp@gmail.com</a>.</p>
     </div>
 
     <footer>LocalKey · firatonurcanp@gmail.com</footer>
